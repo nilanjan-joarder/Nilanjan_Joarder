@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior:smooth;
+}
+
+ 
+nav {
+   display: inline;
+   position: fixed;
+
+}
+
+body {
+   background-image: url(background.png );
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover
+}
+
+.home {
+   font-family: 'Audiowide', cursive;
+   color: white;
+   display: inline-block;
+   position: relative;
+   writing-mode: vertical-rl;
+   font-size: 20px;
+   margin-top: -161px;
+   margin-bottom: 70px;
+   margin-left: 20px;
+   
+}
+
+
+.home:after {
+   content: '';
+   margin-left: -33px;
+   margin-bottom: 30px;
+   position: absolute;
+   width: 60px;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #70E2E0;
+   rotate: 90deg;
+   transition: transform 0.25s ease-out;
+}
+
+.home:hover:after {
+   transform: scaleX(1);
+   rotate: 90deg;
+}
+
+.about {
+   font-family: 'Audiowide', cursive;
+   color: white;
+   writing-mode: vertical-rl;
+   font-size: 20px;
+   margin-top: 2px;
+   margin-bottom: 70px;
+   margin-left: 20px;
+}
+
+.about::after {
+   content: '';
+   margin-left: -17px;
+   margin-bottom: 276px;
+   position: absolute;
+   width: 67px;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #70E2E0;
+   rotate: 90deg;
+   transition: transform 0.25s ease-out;
+}
+
+.about:hover:after {
+   transform: scaleX(1);
+   rotate: 90deg;
+}
+
+.contact {
+   font-family: 'Audiowide', cursive;
+   color: white;
+   writing-mode: vertical-rl;
+   font-size: 20px;
+   margin-top: 6px;
+   margin-bottom: 70px;
+   margin-left: 20px;
+
+}
+
+.contact::after {
+   content: '';
+   margin-left: -27px;
+   margin-bottom: 118px;
+   position: absolute;
+   width: 85px;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #70E2E0;
+   rotate: 90deg;
+   transition: transform 0.25s ease-out;
+}
+
+.contact:hover:after {
+   transform: scaleX(1);
+   rotate: 90deg;
+}
+
+.navbar {
+   overflow: hidden;
+   display: block;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+#heading1 {
+
+
+   color: white;
+   margin-top: 300px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 48px;
+}
+
+.container {
+   display: inline-block;
+   font-family: "arial";
+   font-size: 20px;
+   
+}
+.container {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .container pre {
+   display: flex;
+   color: rgb(122, 121, 121);
+   margin-top: -630px;
+   margin-left: -800px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 20px;
+   overflow: hidden;
+   white-space: nowrap;
+ }
+ .container pre span.typed-text {
+   font-weight: normal;
+   color: #7DFFFF;
+ }
+ .container pre span.cursor {
+   display: inline-block;
+   background-color: #ccc;
+   margin-left: 0.1rem;
+   width: 3px;
+   animation: blink 1s infinite;
+ }
+ .container pre span.cursor.typing {
+   animation: none;
+ }
+ 
+h3{
+   display: flex;
+   color: rgb(122, 121, 121);
+   margin-top: 26px;
+   margin-left: 270px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 20px;
+   overflow: hidden;
+   white-space: nowrap;
+}
+
+
+#heading2 {
+
+
+   color: white;
+   margin-top: 0px;
+   margin-left: 230px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 48px;
+}
+
+.typed2 {
+   color: rgb(122, 121, 121);
+   margin-top: 27px;
+   margin-left: 250px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+
+#heading3 {
+   color: white;
+   margin-top: 600px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 48px;
+}
+
+#heading4 {
+   color: white;
+   margin-top: 700px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 48px;
+}
+
+#heading5 {
+   color: white;
+   margin-top: 15px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 15px;
+}
+
+@keyframes typing {
+   from {
+      width: 0
+   }
+
+   to {
+      width: 100%
+   }
+}
+
+
+.cube {
+
+   width: 100px;
+   height: 400px;
+   transform-style: preserve-3d;
+   animation: animate 15s linear infinite;
+   
+
+}
+
+@keyframes animate {
+   0% {
+      transform: rotateX(-30deg) rotateY(0deg);
+   }
+
+   100% {
+      transform: rotateX(-30deg) rotateY(360deg);
+   }
+}
+
+.cube div {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   transform-style: preserve-3d;
+   transform: rotate(7deg);
+}
+
+.cube div span {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: 4px solid #7DFFFF;
+
+   box-shadow: 0 0 08px #70E2E0, inset 0 0px 8px #70E2E0;
+
+   transform: rotateY(calc(90deg*var(--i)))translateZ(50px);
+
+}
+
+ .cube1 {
+
+   width: 100px;
+   height: 400px;
+   transform-style: preserve-3d;
+   animation: animate 15s linear infinite;
+
+
+}
+
+@keyframes animate {
+   0% {
+      transform: rotateX(-30deg) rotateY(0deg);
+   }
+
+   100% {
+      transform: rotateX(-30deg) rotateY(360deg);
+   }
+}
+
+.cube1 div {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   transform-style: preserve-3d;
+   transform: rotate(-7deg);
+}
+
+.cube1 div span {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: 2px solid #7DFFFF;
+   border-top: 0px;
+   border-bottom: 0px;
+   transform: rotateY(calc(90deg*var(--i)))translateZ(50px);
+
+} 
+
+
+
+
+.skills {
+   width: 100%;
+   max-width: 600px;
+   margin-left: 200px;
+}
+
+.skill-name {
+   font-size: 18px;
+   font-weight: 700;
+   color: #7DFFFF;
+   font-family: 'Audiowide', cursive;
+   text-transform: uppercase;
+   margin: 20px 0;
+}
+
+.skill-bar {
+   height: 14px;
+   background: #282828;
+   border-radius: 3px;
+}
+
+.skill-per {
+   height: 14px;
+   background: #7DFFFF;
+   border-radius: 3px;
+   position: relative;
+   animation: fillBars 2.5s 1;
+}
+
+.skill-per::before {
+   content: attr(per);
+   position: absolute;
+   padding: 4px 6px;
+   border-radius: 4px;
+   font-size: 12px;
+   top: -35px;
+   right: 0;
+   transform: translateX(50%);
+}
+
+.skill-per::after {
+   content: "";
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   top: -20px;
+   right: 0;
+   transform: translateX(50%) rotate(45deg);
+   border-radius: 2px;
+}
+
+@keyframes fillBars {
+   from {
+      width: 0;
+   }
+
+   to {
+      width: 100%;
+   }
+}
+
+#projects{
+   color: white;
+   margin-top: 700px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 48px;
+}
+#project1{
+   width: 400px;
+   height:  250px;
+   display: flex;
+   object-fit: cover;
+   margin-left: 200px;
+   margin-top: 100px;
+
+}
+#project1 img{
+   display: flex;
+   width: 400px;
+   height: 250px;
+}
+#heading6{
+   display: flex;
+   color: rgb(122, 121, 121);
+   margin-top: 27px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+#project2{
+   width: 400px;
+   height:  250px;
+   display: flex;
+   object-fit: cover;
+   margin-left: 700px;
+   margin-top: -330px;
+   background:no-repeat center center/cover;
+
+}
+#project2 img{
+   display: flex;
+   width: 400px;
+   height: 250px;
+}
+#heading7{
+   display: flex;
+   color: rgb(122, 121, 121);
+   margin-top: 27px;
+   margin-left: 700px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+
+.container1 {
+   min-height: 80vh;
+   background: #08071d;
+   justify-content: center;
+   align-items: center;
+   background:no-repeat center center/cover;
+}
+
+.container1 form {
+   width: 670px;
+   height: 400px;
+   display: flex;
+   margin-left: 250px;
+   margin-top: 50px;
+   justify-content: center;
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+   background: rgba(255, 255, 255, 0.1);
+   backdrop-filter: blur(10px);
+   flex-wrap: wrap;
+}
+
+.container1 form h1 {
+   color: #fff;
+   font-family: 'Audiowide', cursive;
+   font-weight: 500;
+   margin-top: 20px;
+   width: 500px;
+   text-align: center;
+}
+
+.container1 form input {
+   width: 290px;
+   height: 40px;
+   padding-left: 10px;
+   outline: none;
+   border: none;
+   font-family: 'Audiowide', cursive;
+   font-size: 15px;
+   margin-bottom: 10px;
+   background: none;
+   border-bottom: 2px solid #fff;
+}
+
+.container1 form input::placeholder {
+   color: #ddd;
+}
+
+.container1 form #lastName,
+.container1 form #mobile {
+   margin-left: 20px;
+}
+
+.container1 form h4 {
+   color: #fff;
+   font-family: 'Audiowide', cursive;
+   font-weight: 300;
+   width: 600px;
+   margin-top: 20px;
+}
+
+.container1 form textarea {
+   background: none;
+   border: none;
+   border-bottom: 2px solid #fff;
+   color: #fff;
+   font-family: 'Audiowide', cursive;
+   font-weight: 200;
+   font-size: 15px;
+   padding: 10px;
+   outline: none;
+   min-width: 600px;
+   max-width: 600px;
+   min-height: 80px;
+   max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+   width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+   background-color: rgba(194, 194, 194, 0.713);
+}
+
+.container1 form #button {
+   border: none;
+   background: #fff;
+   border-radius: 5px;
+   margin-top: 20px;
+   font-family: 'Audiowide', cursive;
+   font-weight: 600;
+   font-size: 20px;
+   color: #333;
+   width: 100px;
+   padding: 0;
+   margin-right: 500px;
+   margin-bottom: 30px;
+   transition: 0.3s;
+}
+
+.container1 form #button:hover {
+   opacity: 0.7;
+}
+
+body {
+   background-color: black;
+}
+
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+   background: linear-gradient(transparent, #7DFFFF);
+   border-radius: 6px;
+}
