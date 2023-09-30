@@ -534,6 +534,16 @@ h3{
    width: 400px;
    height: 250px;
 }
+.project1 img {
+   transition: 1s ease;
+   }
+   
+   #project1 img:hover{
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease;
+   }
 #heading6{
    display: flex;
    color: rgb(122, 121, 121);
@@ -558,6 +568,16 @@ h3{
    width: 400px;
    height: 250px;
 }
+.project2 img {
+   transition: 1s ease;
+   }
+   
+#project2 img:hover{
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition: 1s ease;
+   }
 #heading7{
    display: flex;
    color: rgb(122, 121, 121);
