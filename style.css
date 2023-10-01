@@ -7,7 +7,7 @@
    scroll-behavior:smooth;
 }
 
- 
+
 nav {
    display: inline;
    position: fixed;
@@ -123,6 +123,11 @@ button{
    width: 30px;   
    margin-left: 300px;
    margin-top: -33px;
+   transition: transform .2s; 
+}
+.linkedin:hover
+ {
+   transform: scale(1.19);
 }
 .Github{
    display: flex;
@@ -130,6 +135,11 @@ button{
    width: 30px;
    margin-left: 350px;
    margin-top: -30px;
+   transition: transform .2s; 
+}
+.Github:hover
+ {
+   transform: scale(1.19);
 }
 .Discord{
    display: flex;
@@ -137,6 +147,11 @@ button{
    width: 30px;
    margin-left: 400px;
    margin-top: -30px;
+   transition: transform .2s; 
+}
+.Discord:hover
+ {
+   transform: scale(1.19);
 }
 .home {
    font-family: 'Audiowide', cursive;
@@ -304,8 +319,9 @@ h3{
 
 
 #heading2 {
-
-
+   
+   
+   
    color: white;
    margin-top: 700px;
    margin-left: 230px;
@@ -539,9 +555,9 @@ h3{
    }
    
    #project1 img:hover{
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
       transition: 1s ease;
    }
 #heading6{
@@ -573,9 +589,9 @@ h3{
    }
    
 #project2 img:hover{
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
       transition: 1s ease;
    }
 #heading7{
