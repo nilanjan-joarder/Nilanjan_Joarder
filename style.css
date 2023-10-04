@@ -21,7 +21,7 @@ body {
    background-size: cover
 }
 .icons{
-   margin-top: -630px;
+   margin-top: -300px;
    margin-left: 145px;
 }
 button{
@@ -117,42 +117,7 @@ button{
    .btn-7 span:hover:after {
      width: 100%;
    }
- .linkedin{
-   display: flex;
-   height: 30px;
-   width: 30px;   
-   margin-left: 300px;
-   margin-top: -33px;
-   transition: transform .2s; 
-}
-.linkedin:hover
- {
-   transform: scale(1.19);
-}
-.Github{
-   display: flex;
-   height: 30px;
-   width: 30px;
-   margin-left: 350px;
-   margin-top: -30px;
-   transition: transform .2s; 
-}
-.Github:hover
- {
-   transform: scale(1.19);
-}
-.Discord{
-   display: flex;
-   height: 30px;
-   width: 30px;
-   margin-left: 400px;
-   margin-top: -30px;
-   transition: transform .2s; 
-}
-.Discord:hover
- {
-   transform: scale(1.19);
-}
+ 
 .home {
    font-family: 'Audiowide', cursive;
    color: white;
@@ -258,7 +223,8 @@ button{
 
 #heading1 {
 
-
+   /* padding-top: 300px;
+   height: 350px; */
    color: white;
    margin-top: 300px;
    margin-left: 200px;
@@ -282,7 +248,7 @@ button{
  .container pre {
    display: flex;
    color: rgb(122, 121, 121);
-   margin-top: -630px;
+   margin-top: 15px;
    margin-left: -800px;
    font-family: 'Audiowide', cursive;
    letter-spacing: 2px;
@@ -320,10 +286,10 @@ h3{
 
 #heading2 {
    
-   
-   
+   padding-top: 300px;
+   height: 350px;
    color: white;
-   margin-top: 700px;
+   margin-top: 380px;
    margin-left: 230px;
    font-family: 'Audiowide', cursive;
    letter-spacing: 2px;
@@ -349,8 +315,10 @@ h3{
 }
 
 #heading4 {
+   padding-top: 100px;
+   height: 160px;
    color: white;
-   margin-top: 700px;
+   margin-top: 600px;
    margin-left: 200px;
    font-family: 'Audiowide', cursive;
    letter-spacing: 2px;
@@ -713,6 +681,117 @@ textarea::-webkit-scrollbar-thumb {
 
 .container1 form #button:hover {
    opacity: 0.7;
+}
+#heading8{
+   font-weight: 700;
+    color: #fff;
+    margin-left: 659px;
+}
+#heading9{
+   color: #c1c1c1;
+   font-size: 13px;
+   margin-left: 710px;
+}
+#heading10{
+   font-family: "Audiowide", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background: linear-gradient(180deg, #54fffc, #2c8683);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 663px;
+}
+#heading11{
+   color: #c1c1c1;
+   font-size: 13px;
+   margin-left: 692px;
+}
+#heading12{
+   color: #c1c1c1;
+   font-size: 13px;
+   margin-left: 627px;
+   margin-bottom: 50px;
+}
+#heading12 a{
+   text-decoration: none;
+   color: #70E2E0;
+
+}
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.footerContainer{
+   width:100%;
+   padding: 70px 30px 20px;
+}
+.socialIcons{
+   display: flex;
+   justify-content: center;
+   transition: 1s ease;
+}
+.socialIcons a{
+   text-decoration: none;
+   padding: 10px;
+   background-color: white;
+   margin: 10px;
+   border-radius: 50%;
+}
+
+.socialIcons a i{
+   font-size: 2em;
+   color: #000000;
+   
+}
+.socialIcons a:hover{
+   
+   transition: 0.5s;
+   -webkit-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     transform: scale(1.1);
+     transition: 1s ease;
+}
+.footerNav{
+display: flex;
+justify-content: center;
+list-style-type: none;
+}
+.footerNav pre{
+   color: white;
+   margin: 20px;
+   text-decoration: none;
+   font-size: 1.3em;
+   opacity: 0.7;
+   transition: 0.5s;
+   
+}
+
+.footerNavul li a:hover{
+   opacity: 1;
+
+}
+.footerBottom{
+   padding: 20px;
+   
+   
+   }
+   #copy{
+      color: white;
+      margin-left: 695px;
+   }
+.footerBottom pre{
+   color: white;
+   margin-left: 630px;
+}
+.designer{
+   opacity: 0.7;
+   text-transform: 1px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 0px 5px;
 }
 
 body {
