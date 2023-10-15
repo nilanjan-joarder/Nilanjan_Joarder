@@ -518,7 +518,7 @@ h3{
    width: 400px;
    height: 250px;
 }
-.project1 img {
+#project1 img {
    transition: 1s ease;
    }
    
@@ -552,7 +552,7 @@ h3{
    width: 400px;
    height: 250px;
 }
-.project2 img {
+#project2 img {
    transition: 1s ease;
    }
    
