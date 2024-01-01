@@ -926,13 +926,13 @@ body {
  width: 400px;
  }
  .footerContainer{
-   margin-left: 400px;
+   margin-left: 350px;
    margin-top: 500px;
    font-size: 25px;
  }
  .footerBottom{
    font-size: 25px;
-    margin-left: -239px;
+    margin-left: -270px;
  }
  .home:after {
    height: 8px;
