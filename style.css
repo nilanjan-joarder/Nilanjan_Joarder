@@ -824,7 +824,7 @@ body {
    margin-top: 235px;   
    position: fixed
 }
-@media (max-width:480px) {
+@media (max-width:320px) {
    .home{
       margin-top: -27px;
       font-size: 45px;
