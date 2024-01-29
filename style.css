@@ -542,6 +542,17 @@ h3{
    background:no-repeat center center/cover;
 
 }
+#heading8{
+   display: flex;
+   color: rgb(122, 121, 121);
+   margin-top: 27px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 20px;
+   width: 400px;
+}
+
 #project2 img{
    display: flex;
    width: 400px;
@@ -565,6 +576,42 @@ h3{
    font-family: 'Audiowide', cursive;
    letter-spacing: 2px;
    font-size: 20px;
+   width: 400px;
+}
+#project3{
+   width: 400px;
+   height:  250px;
+   display: flex;
+   object-fit: cover;
+   margin-left: 200px;
+   margin-top: 100px;
+   background:no-repeat center center/cover;
+}
+
+#project3 img{
+   display: flex;
+   width: 400px;
+   height: 250px;
+}
+#project3 img {
+   transition: 1s ease;
+   }
+   
+#project3 img:hover{
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      transition: 1s ease;
+   }
+#heading13{
+      display: flex;
+   color: rgb(122, 121, 121);
+   margin-top: 27px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 20px;
+   width: 400px;
 }
 * {
    margin: 0;
@@ -824,7 +871,7 @@ body {
    margin-top: 235px;   
    position: fixed
 }
-@media (max-width:420px) {
+@media (max-width:767px) {
    .home{
       margin-top: -27px;
       font-size: 45px;
@@ -915,6 +962,16 @@ body {
     margin-left: 211px;
     font-size: 35px;
     width: 400px;
+ }
+ #heading13{
+   display: flex;
+   color: rgb(122, 121, 121);
+   margin-top: 27px;
+   margin-left: 200px;
+   font-family: 'Audiowide', cursive;
+   letter-spacing: 2px;
+   font-size: 35px;
+   width: 400px;
  }
  #heading4{
    font-size: 80px;
