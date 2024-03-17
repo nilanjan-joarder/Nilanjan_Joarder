@@ -538,7 +538,7 @@ h3{
    display: flex;
    object-fit: cover;
    margin-left: 700px;
-   margin-top: -330px;
+   margin-top: -250px;
    background:no-repeat center center/cover;
 
 }
@@ -571,7 +571,7 @@ h3{
 #heading7{
    display: flex;
    color: rgb(122, 121, 121);
-   margin-top: 27px;
+   margin-top: -25px;
    margin-left: 700px;
    font-family: 'Audiowide', cursive;
    letter-spacing: 2px;
@@ -958,7 +958,7 @@ body {
    width: 400px;
  }
  #heading7{
-   margin-top: 443px;
+   margin-top: 330px;
     margin-left: 211px;
     font-size: 35px;
     width: 400px;
