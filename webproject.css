@@ -146,6 +146,10 @@ body {
  }
 @media (max-width:767px) 
 {
+      #title{
+        font-size: 35px;
+        margin-left: 100px;
+    }
     .home{
         display:none;
      }
