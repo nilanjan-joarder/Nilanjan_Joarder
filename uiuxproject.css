@@ -337,15 +337,15 @@
 @media (max-width:767px) {
    .home{
       margin-top: 50px;
-      font-size: 10px;
+      font-size: 15px;
    }
    .about{
       margin-top: 20px;
-      font-size: 10px;
+      font-size: 15px;
    }
    .contact{
       margin-top: 20px;
-      font-size: 10px;
+      font-size: 15px;
    }
    .logo{
       display: none;
@@ -360,8 +360,8 @@
   }
   #title{
       margin-left: 100px;
-   margin-top: 150px;
-      font-size: 25px
+       margin-top: 150px;
+      font-size: 25px;
   }
   .cube{
    margin-left: 650px;
