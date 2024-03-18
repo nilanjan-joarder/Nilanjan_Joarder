@@ -160,6 +160,23 @@ body {
     margin-top: 10px;
     width: 400px;
  }
+    #project2
+    {
+    display:flex ;
+    height: 250px;
+    width: 400px;
+    margin-top: -285px;
+    margin-left: 650px;
+    }
+    #project2title
+    {
+    font-size: 20px;
+    font-family: audiowide;
+    color: white;
+    margin-left: 650px;
+    margin-top: 10px;
+    width: 400px;
+    }
 @media (max-width:767px) 
 {
       #title{
@@ -203,21 +220,5 @@ body {
        margin-top: 10px;
        width: 200px;
     }
-    #project2
-    {
-    display:flex ;
-    height: 250px;
-    width: 400px;
-    margin-top: -285px;
-    margin-left: 650px;
-    }
-    #project2title
-    {
-    font-size: 20px;
-    font-family: audiowide;
-    color: white;
-    margin-left: 650px;
-    margin-top: 10px;
-    width: 400px;
-    }
+
 }
