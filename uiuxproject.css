@@ -333,14 +333,17 @@
 
 @media (max-width:767px) {
    .home{
+       margin-left: 10px;
       margin-top: 150px;
       font-size: 15px;
    }
    .about{
+        margin-left: 10px;
       margin-top: -20px;
       font-size: 15px;
    }
    .contact{
+        margin-left: 10px;
       margin-top: -20px;
       font-size: 15px;
    }
