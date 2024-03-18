@@ -352,6 +352,9 @@
     margin-left: 260px;
     display: flex;
 }
+    .navbar{
+   position: absolute;
+}
   }
      .home:after {
    height: 8px;
