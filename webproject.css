@@ -144,6 +144,13 @@ body {
     margin-left: 1250px;
     display: none;   
  }
+ #project1
+ {
+    height: 250px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+ }
 @media (max-width:767px) 
 {
       #title{
