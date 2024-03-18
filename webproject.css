@@ -151,6 +151,15 @@ body {
     margin-top: 50px;
     margin-left: 200px;
  }
+ #project1title
+ {
+    font-size: 20px;
+    font-family: audiowide;
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 400px;
+ }
 @media (max-width:767px) 
 {
       #title{
@@ -186,5 +195,12 @@ body {
         margin-top: 70px;
         width: 200px;
         height: 150px;
+    }
+       #project1title
+    {
+       font-size: 15px;
+       margin-left: 90px;
+       margin-top: 10px;
+       width: 200px;
     }
 }
