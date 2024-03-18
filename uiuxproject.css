@@ -375,9 +375,8 @@
    width: 184px;
 }
   #title{
-      margin-left: 120px;
-       margin-top: 120px;
-      width: 200px;
+      margin-left: 100px;
+      font-size:35px;
   }
 .main-container {
     margin-left: 90px;
