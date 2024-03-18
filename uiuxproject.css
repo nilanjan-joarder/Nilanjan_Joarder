@@ -359,7 +359,7 @@
       display: flex;
   }
   #title{
-      margin-left: 53px;
+      margin-left: 60px;
        margin-top: 150px;
       font-size: 25px;
   }
@@ -368,17 +368,17 @@
    height: 650px;
 }
 .main-container {
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 70px;
     width: 200px;
 }
 .main-container2 {
-   margin-left: 70px;
+   margin-left: 100px;
    margin-top: 70px;
    width: 200px;
 }
 .main-container3 {
-    margin-left: 70px;
+    margin-left: 100px;
    margin-top: 70px;
    width: 200px;
 }
