@@ -333,22 +333,16 @@
 
 @media (max-width:767px) {
    .home{
-       margin-left: 10px;
-      margin-top: 150px;
-      font-size: 15px;
+      display:none;
    }
    .about{
-        margin-left: 10px;
-      margin-top: -20px;
-      font-size: 15px;
+    display:none;
    }
    .contact{
-        margin-left: 10px;
-      margin-top: -20px;
-      font-size: 15px;
+    display:none;
    }
    .logo{
-      display: none;
+    display: none;
       
    } 
    .shortlogo{
@@ -381,7 +375,7 @@
    width: 184px;
 }
   #title{
-      margin-left: 100px;
+      margin-left: 120px;
        margin-top: 120px;
       width: 200px;
   }
