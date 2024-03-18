@@ -340,11 +340,11 @@
       font-size: 15px;
    }
    .about{
-      margin-top: 20px;
+      margin-top: -20px;
       font-size: 15px;
    }
    .contact{
-      margin-top: 20px;
+      margin-top: -20px;
       font-size: 15px;
    }
    .logo{
@@ -359,7 +359,7 @@
       display: flex;
   }
   #title{
-      margin-left: 100px;
+      margin-left: 53px;
        margin-top: 150px;
       font-size: 25px;
   }
@@ -368,17 +368,17 @@
    height: 650px;
 }
 .main-container {
-    margin-left: 100px;
-   margin-top: 70px;
-   width: 200px;
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 200px;
 }
 .main-container2 {
-   margin-left: 100px;
+   margin-left: 70px;
    margin-top: 70px;
    width: 200px;
 }
 .main-container3 {
-    margin-left: 100px;
+    margin-left: 70px;
    margin-top: 70px;
    width: 200px;
 }
