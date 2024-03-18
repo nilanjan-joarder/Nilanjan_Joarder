@@ -146,24 +146,27 @@ body {
  }
 @media (max-width:767px) 
 {
-    .shortlogo{
-        display: none;
-    }
-    .logo{
-        display: none;
-    }
-    #title{
-        font-size: 35px;
-        margin-left: 100px;
-    }
     .home{
-        display: none;
-    }
-    .about
-    {
-        display: none;
-    }
-    .contact{
-        display: none;
-    }
+        display:none;
+     }
+     .about{
+      display:none;
+     }
+     .contact{
+      display:none;
+     }
+     .logo{
+      display: none;
+        
+     } 
+     .shortlogo{
+      width: 70px;
+      height: 50px;
+      margin-top: 20px;
+      margin-left: 260px;
+      display: flex;
+  }
+  .navbar{
+    position: absolute;
+ }
 }
