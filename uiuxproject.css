@@ -337,15 +337,15 @@
 @media (max-width:767px) {
    .home{
       margin-top: 50px;
-      font-size: 20px;
+      font-size: 10px;
    }
    .about{
       margin-top: 20px;
-      font-size: 20px;
+      font-size: 10px;
    }
    .contact{
       margin-top: 20px;
-      font-size: 20px;
+      font-size: 10px;
    }
    .logo{
       display: none;
