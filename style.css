@@ -1001,7 +1001,7 @@ body {
 .about::after{
    height: 8px;
    margin-left: -52px;
-   margin-bottom: 520px;
+   margin-bottom: 530px;
    position: absolute;
    width: 140px;
 }
