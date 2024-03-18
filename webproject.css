@@ -223,6 +223,9 @@ body {
     transform: rotateY(calc(90deg*var(--i)))translateZ(50px);
  
  }
+.space{
+   height:100px;
+}
 @media (max-width:767px) 
 {
       #title{
