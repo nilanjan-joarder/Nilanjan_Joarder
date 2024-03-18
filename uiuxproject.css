@@ -359,26 +359,22 @@
       display: flex;
   }
   #title{
-      margin-left: 60px;
+      margin-left: 80px;
        margin-top: 150px;
       font-size: 25px;
   }
-  .cube{
-   margin-left: 650px;
-   height: 650px;
-}
 .main-container {
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 70px;
     width: 200px;
 }
 .main-container2 {
-   margin-left: 100px;
+   margin-left: 90px;
    margin-top: 70px;
    width: 200px;
 }
 .main-container3 {
-    margin-left: 100px;
+    margin-left: 90px;
    margin-top: 70px;
    width: 200px;
 }
