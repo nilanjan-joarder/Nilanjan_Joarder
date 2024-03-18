@@ -220,5 +220,19 @@ body {
        margin-top: 10px;
        width: 200px;
     }
+       #project2
+    {
+        margin-left: 90px;
+        margin-top: 70px;
+        width: 200px;
+        height: 150px;
+    }
+    #project2title
+    {
+       font-size: 15px;
+       margin-left: 90px;
+       margin-top: 10px;
+       width: 200px;
+    }
 
 }
