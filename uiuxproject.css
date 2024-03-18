@@ -423,4 +423,11 @@
     text-align: center;
     transform: translate(-50%, -50%);
 }
+ .about:after {
+    height: 2px;
+    margin-left: -18px;
+    margin-bottom: 220px;
+    position: absolute;
+    width: 50px;
  }
+}
