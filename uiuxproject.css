@@ -151,14 +151,11 @@
 
  #title
 {
-    display: flex;
-    width: fit-content;
-    color: white;
     margin-top: 100px;
     margin-left: 200px;
-    font-family: 'Audiowide', cursive;
-    letter-spacing: 2px;
-    font-size: 48px;
+    font-size: 45px;
+    font-family: audiowide;
+    color: white;
 }
 
 /* Video1 */
