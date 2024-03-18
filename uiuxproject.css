@@ -397,11 +397,18 @@
     text-align: center;
     transform: translate(-50%, -50%);
 }
+         .video-container .hover-text {
+         width: fit-content;
+         font-size: 10px;
+         text-align: center;
+ }
+    
 .main-container2 {
    margin-left: 90px;
    margin-top: 70px;
    width: 200px;
 }
+    
         .video-container2 .hover-text.active {
     width: fit-content;
     opacity: 1;
@@ -410,6 +417,11 @@
     text-align: center;
     transform: translate(-50%, -50%);
 }
+     .video-container2 .hover-text {
+         width: fit-content;
+         font-size: 10px;
+         text-align: center;
+ }
 .main-container3 {
     margin-left: 90px;
    margin-top: 70px;
@@ -423,6 +435,11 @@
     text-align: center;
     transform: translate(-50%, -50%);
 }
+         .video-container3 .hover-text {
+         width: fit-content;
+         font-size: 10px;
+         text-align: center;
+ }
     .home:after {
     height: 2px;
     margin-left: -26px;
