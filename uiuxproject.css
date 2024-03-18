@@ -336,7 +336,7 @@
 
 @media (max-width:767px) {
    .home{
-      margin-top: -50px;
+      margin-top: 50px;
       font-size: 20px;
    }
    .about{
@@ -361,6 +361,7 @@
   #title{
       margin-left: 100px;
    margin-top: 250px;
+      font-size: 35px
   }
   .cube{
    margin-left: 650px;
