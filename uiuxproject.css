@@ -437,4 +437,11 @@
     position: absolute;
     width: 50px;
  }
+    .contact::after {
+    height: 2px;
+    margin-left: -27px;
+    margin-bottom: 106px;
+    position: absolute;
+    width: 67px;
+}
 }
