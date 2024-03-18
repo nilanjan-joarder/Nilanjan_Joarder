@@ -167,7 +167,6 @@
     margin-left: 90px;
     margin-top: 70px;
     width: 200px;
-    height: 120px;
  }
  
  .video-container {
@@ -381,28 +380,19 @@
       font-size: 25px;
   }
 .main-container {
-    margin-left: 90px;
+    margin-left: 60px;
     margin-top: 70px;
     width: 150px;
+    height: 120px;
 }
     .video-container .hover-text.active {
-    width: fit-content;
-    opacity: 1;
-    font-size: 10px;
-    letter-spacing: 0;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-         .video-container .hover-text {
-         width: fit-content;
-         font-size: 10px;
-         text-align: center;
- }
+
     
 .main-container2 {
-    margin-left: 90px;
+    margin-left: 60px;
     margin-top: 70px;
     width: 150px;
+    height: 120px;
 }
     
         .video-container2 .hover-text.active {
@@ -419,9 +409,10 @@
          text-align: center;
  }
 .main-container3 {
-    margin-left: 90px;
+    margin-left: 60px;
     margin-top: 70px;
     width: 150px;
+    height: 120px;
 }
         .video-container3 .hover-text.active {
     width: fit-content;
