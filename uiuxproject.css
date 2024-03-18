@@ -368,15 +368,17 @@
    height: 650px;
 }
 .main-container {
+    margin-left: 100px;
    margin-top: 70px;
    width: 300px;
 }
 .main-container2 {
-   margin-left: 200px;
+   margin-left: 100px;
    margin-top: 70px;
    width: 300px;
 }
 .main-container3 {
+    margin-left: 100px;
    margin-top: 70px;
    width: 300px;
 }
