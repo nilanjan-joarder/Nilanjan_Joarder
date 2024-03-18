@@ -163,15 +163,11 @@
 
 /* Video1 */
 .main-container {
-   display: flex;
-   width:350px;
-   
-   margin: 40px auto;
-   font-family: "Roboto", sans-serif;
-   border-radius: 10px;
-   overflow: hidden;
-   border: 1px solid #484848;
-   margin-left: 200px;
+    display : flex;
+    margin-left: 90px;
+    margin-top: 70px;
+    width: 200px;
+    height: 120px;
  }
  
  .video-container {
