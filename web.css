@@ -383,7 +383,7 @@
 .main-container {
     margin-left: 90px;
     margin-top: 70px;
-    width: 200px;
+    width: 150px;
 }
     .video-container .hover-text.active {
     width: fit-content;
@@ -400,9 +400,9 @@
  }
     
 .main-container2 {
-   margin-left: 90px;
-   margin-top: 70px;
-   width: 200px;
+    margin-left: 90px;
+    margin-top: 70px;
+    width: 150px;
 }
     
         .video-container2 .hover-text.active {
@@ -420,8 +420,8 @@
  }
 .main-container3 {
     margin-left: 90px;
-   margin-top: 70px;
-   width: 200px;
+    margin-top: 70px;
+    width: 150px;
 }
         .video-container3 .hover-text.active {
     width: fit-content;
