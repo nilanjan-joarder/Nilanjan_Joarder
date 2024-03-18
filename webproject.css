@@ -171,11 +171,11 @@ body {
         
      } 
      .shortlogo{
-      width: 70px;
-      height: 50px;
-      margin-top: 20px;
-      margin-left: 260px;
-      display: flex;
+     width: 70px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 260px;
+    display: flex;
   }
   .navbar{
     position: absolute;
