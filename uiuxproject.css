@@ -354,8 +354,8 @@
    .shortlogo{
       width: 200px;
       height: 150px;
-      margin-top: 81px;
-      margin-left: 798px;
+      margin-top: 10px;
+      margin-left: 200px;
       display: flex;
   }
      .home:after {
