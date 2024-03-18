@@ -27,11 +27,143 @@ body {
     font-family: audiowide;
     color: white;
 }
-
+.home {
+    width: fit-content;
+    font-family: 'Audiowide', cursive;
+    color: white;
+    display: flex;
+    position: relative;
+    writing-mode:vertical-rl;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+ }
+ .home:after {
+    content: '';
+    margin-left: -33px;
+    margin-bottom: 30px;
+    position: absolute;
+    width: 60px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #70E2E0;
+    rotate: 90deg;
+    transition: transform 0.25s ease-out;
+ }
+ .home:hover:after {
+    transform: scaleX(1);
+    rotate: 90deg;
+ }
+ .about {
+    font-family: 'Audiowide', cursive;
+    color: white;
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+ }
+ .about::after {
+    content: '';
+    margin-left: -17px;
+    margin-bottom: 276px;
+    position: absolute;
+    width: 67px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #70E2E0;
+    rotate: 90deg;
+    transition: transform 0.25s ease-out;
+ }
+ 
+ .about:hover:after {
+    transform: scaleX(1);
+    rotate: 90deg;
+ }
+ 
+ .contact {
+    font-family: 'Audiowide', cursive;
+    color: white;
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+ 
+ }
+ 
+ .contact::after {
+    content: '';
+    margin-left: -27px;
+    margin-bottom: 118px;
+    position: absolute;
+    width: 85px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #70E2E0;
+    rotate: 90deg;
+    transition: transform 0.25s ease-out;
+ }
+ 
+ .contact:hover:after {
+    transform: scaleX(1);
+    rotate: 90deg;
+ }
+.navbar {
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+ }
+ ::-webkit-scrollbar {
+    width: 12px;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #7DFFFF);
+    border-radius: 6px;
+ }
+ .logo{
+    width: 240px; 
+    height: 42px; 
+    margin-top: 20px; 
+    margin-left: 1250px;
+ }
+ .shortlogo{
+    width: 70px; 
+    height: 50px; 
+    margin-top: 20px; 
+    margin-left: 1250px;
+    display: none;   
+ }
 @media (max-width:767px) 
 {
+    .shortlogo{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
     #title{
         font-size: 35px;
         margin-left: 100px;
+    }
+    .home{
+        display: none;
+    }
+    .about
+    {
+        display: none;
+    }
+    .contact{
+        display: none;
     }
 }
