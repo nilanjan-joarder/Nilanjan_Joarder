@@ -286,27 +286,21 @@
       width: 100vh;
   }
 
-    .home:after {
-    height: 2px;
-    margin-left: -26px;
-    margin-bottom: 21px;
-    position: absolute;
-    width: 47px;
-}
- .about:after {
-    height: 2px;
-    margin-left: -18px;
-    margin-bottom: 220px;
-    position: absolute;
-    width: 50px;
- }
-    .contact::after {
-    height: 2px;
-    margin-left: -27px;
-    margin-bottom: 106px;
-    position: absolute;
-    width: 67px;
-}
+   .home{
+       margin-left: 10px;
+      margin-top: 340px;
+      font-size: 25px;
+   }
+   .about{
+        margin-left: 10px;
+      margin-top: 20px;
+      font-size: 25px;
+   }
+   .contact{
+      margin-left: 10px;
+      margin-top: 20px;
+      font-size: 25px;
+   }
 #project1{
     margin-left: -40px;
 }
