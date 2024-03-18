@@ -150,6 +150,8 @@ body {
     width: 400px;
     margin-top: 50px;
     margin-left: 200px;
+    border-radius: 10px;
+    border: 1px solid gray;
  }
  #project1title
  {
@@ -167,6 +169,8 @@ body {
     width: 400px;
     margin-top: -285px;
     margin-left: 650px;
+    border-radius: 10px;
+    border: 1px solid gray;
     }
     #project2title
     {
