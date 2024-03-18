@@ -360,7 +360,7 @@
   }
   #title{
       margin-left: 100px;
-   margin-top: 250px;
+   margin-top: 150px;
       font-size: 35px
   }
   .cube{
@@ -370,16 +370,16 @@
 .main-container {
     margin-left: 100px;
    margin-top: 70px;
-   width: 300px;
+   width: 200px;
 }
 .main-container2 {
    margin-left: 100px;
    margin-top: 70px;
-   width: 300px;
+   width: 200px;
 }
 .main-container3 {
     margin-left: 100px;
    margin-top: 70px;
-   width: 300px;
+   width: 200px;
 }
  }
