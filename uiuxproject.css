@@ -359,7 +359,8 @@
       display: flex;
   }
   #title{
-   margin-top: 450px;
+      margin-left: 100px;
+   margin-top: 350px;
   }
   .cube{
    margin-left: 650px;
@@ -367,15 +368,15 @@
 }
 .main-container {
    margin-top: 70px;
-   width: 400px;
+   width: 300px;
 }
 .main-container2 {
    margin-left: 200px;
    margin-top: 70px;
-   width: 400px;
+   width: 300px;
 }
 .main-container3 {
    margin-top: 70px;
-   width: 400px;
+   width: 300px;
 }
  }
