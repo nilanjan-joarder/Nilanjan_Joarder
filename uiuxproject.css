@@ -423,6 +423,13 @@
     text-align: center;
     transform: translate(-50%, -50%);
 }
+    .home:after {
+    height: 2px;
+    margin-left: -26px;
+    margin-bottom: 21px;
+    position: absolute;
+    width: 47px;
+}
  .about:after {
     height: 2px;
     margin-left: -18px;
